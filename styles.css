@@ -1,0 +1,38 @@
+body {
+    background: #000000;
+}
+#main {
+    margin-top: 5%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+video {
+    height:680px;
+}
+@media(max-height: 1080px) {
+    video {
+        height:560px;
+    }
+}
+@media(max-height: 800px) {
+    video {
+        height:397px;
+    }
+}
+@media(max-height: 520px) {
+    video {
+        height:307px;
+    }
+}
+#text {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+a {
+    color: #FFFFFF;
+    font-family: "Gill Sans", sans-serif;
+    font-size: 16pt;
+    text-decoration: none;
+}
